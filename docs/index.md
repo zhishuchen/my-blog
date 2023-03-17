@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  name: 东方小月的博客
-  text: 随便写点啥.
-  tagline: 帅气又迷人的小月
+  name: 植树chen
+  text: 天道酬勤
+  tagline: 种一颗树最好的时间是十年前，其次是现在
   image:
     src: /logo.png
     alt: Kitty
   actions:
     - theme: brand
-      text: 快来快来
+      text: 开始
       link: /articles/组件库环境搭建
     - theme: alt
-      text: View on Gitee
-      link: https://gitee.com/geeksdidi
+      text: chatGPT
+      link:https://openai.com/
 
 features:
   - icon: ⚡️
