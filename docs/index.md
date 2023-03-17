@@ -1,9 +1,9 @@
 ---
 layout: home
-title:植树chen
-titleTemplate:我的博客
+title: 植树chen
+titleTemplate: 我的博客
 
-hero:
+hero: 
   name: Hi there 👋
   text: ' '
   tagline: 种一颗树最好的时间是十年前，其次是现在。
