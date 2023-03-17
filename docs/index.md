@@ -14,7 +14,7 @@ hero:
       link: /articles/组件库环境搭建
     - theme: alt
       text: chatGPT
-      link:https://www.bing.com/?intlF=&mkt=zh-CN
+      link:	https://www.bing.com/?intlF=&mkt=zh-CN
 
 features:
   - icon: ⚡️
