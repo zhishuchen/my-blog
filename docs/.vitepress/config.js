@@ -10,7 +10,7 @@ export default {
     ],
   ],
  themeConfig: {
-    siteTitle: "首页",
+  siteTitle: "首页",
    logo: '/image/code.png',
   docFooter: {
       prev: '上一页',
@@ -44,20 +44,20 @@ export default {
           },
         ],
       },
+      {
+        text: '联系我',
+        items: [
+          { text: 'zhishuchen@qq.com', link: '' },
+        ]
+      },
     ],
-    sidebar: {
-      "/articles/": [
-        {
-          text: "组件库源码实现",
-          collapsible: true,
-          items: [
-            {
-              text: "组件库环境搭建",
-              link: "/articles/组件库环境搭建",
-            },
-            { text: "gulp的使用", link: "/articles/gulp的使用" },
-          ],
-        },
+    sidebar: [
+      {
+        text: ' 开始',
+        items: [
+          { text: '起步', link: '/pages/start/' },
+        ]
+      },
         {
           text: "vue教程",
           collapsible: true,
@@ -70,6 +70,5 @@ export default {
           ],
         },
       ],
-    },
   },
 };
