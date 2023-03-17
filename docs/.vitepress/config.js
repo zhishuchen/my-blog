@@ -1,25 +1,32 @@
 export default {
-  title: 'VitePress',
+  title: '植树chen的博客',
   description: 'Just playing around.',
   base: '/my-blog/',
+ head: [
+    [
+      'link',
+      { rel: 'icon', href: '/image/tree.png' },
+      //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
+    ],
+  ],
  themeConfig: {
-    siteTitle: "Kitty",
-    logo: "/logo.png",
-    socialLinks: [
-      { icon: "github", link: "https://gitee.com/geeksdidi" },
-      { icon: "twitter", link: "..." },
-      // You can also add custom icons by passing SVG as string:
-      {
-        icon: {
-          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>',
-        },
-        link: "...",
-      },
+    siteTitle: "首页",
+   logo: '/image/code.png',
+  docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
+    markdown: {
+      theme: 'material-palenight',
+      lineNumbers: true
+    },
+    socialLinks: [	
+      { icon: "github", link: "https://github.com/zhishuchen" },
+     
     ],
     nav: [
-      { text: "博客", link: "/articles/组件库环境搭建" },
+      { text: "博客", link: "/articles/start" },
       { text: "GuideTest", link: "/guide/test" },
-      { text: "gitee", link: "https://gitee.com/geeksdidi" },
       {
         text: "Drop Menu",
         items: [

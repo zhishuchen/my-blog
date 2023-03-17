@@ -1,17 +1,19 @@
 ---
 layout: home
+title:植树chen
+titleTemplate:我的博客
 
 hero:
-  name: 植树chen
-  text: 天道酬勤
-  tagline: 种一颗树最好的时间是十年前，其次是现在
+  name: Hi there 👋
+  text: ' '
+  tagline: 种一颗树最好的时间是十年前，其次是现在。
   image:
-    src: /logo.png
-    alt: Kitty
+    src: /image/avatar.jpg
+    alt: 谛听
   actions:
     - theme: brand
       text: 开始
-      link: /articles/组件库环境搭建
+      link: /articles/start/
     - theme: alt
       text: chatGPT
       link:	https://www.bing.com/?intlF=&mkt=zh-CN
