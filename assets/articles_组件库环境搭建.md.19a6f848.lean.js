@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as p}from"./chunks/framework.0711c8a0.js";const D=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/组件库环境搭建.md"}'),l={name:"articles/组件库环境搭建.md"},e=p("",207),o=[e];function t(c,i,r,C,A,u){return a(),n("div",null,o)}const d=s(l,[["render",t]]);export{D as __pageData,d as default};

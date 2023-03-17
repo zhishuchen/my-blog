@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as p}from"./chunks/framework.0711c8a0.js";const D=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/pina和vuex.md"}'),l={name:"articles/pina和vuex.md"},e=p("",107),t=[e];function o(c,i,r,A,C,u){return a(),n("div",null,t)}const d=s(l,[["render",o]]);export{D as __pageData,d as default};
