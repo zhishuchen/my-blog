@@ -25,23 +25,45 @@ export default {
      
     ],
     nav: [
-      { text: "博客", link: "/articles/start" },
-      { text: "GuideTest", link: "/guide/test" },
+      { text: "Java", link: "../articles/Java/java" },
       {
-        text: "Drop Menu",
+        text: "数据库",
         items: [
-          {
-            items: [
-              { text: "Item A1", link: "/item-A1" },
-              { text: "Item A2", link: "/item-A2" },
-            ],
-          },
-          {
-            items: [
-              { text: "Item B1", link: "/item-B1" },
-              { text: "Item B2", link: "/item-B2" },
-            ],
-          },
+          { text: "MySQL", link: "../articles/Database/java" },
+          { text: "事务", link: "../articles/Database/java" },
+        ],
+      },
+      {
+        text: "Spring",
+        items: [
+          { text: "Spring5", link: "../articles/Tool/java" },
+          { text: "SpringMVC", link: "../articles/Tool/java" },
+          { text: "SpringBoot", link: "../articles/Tool/java" },
+          { text: "Mybatis", link: "../articles/Tool/java" },
+          { text: "MybatisPlus", link: "../articles/Tool/java" },
+        ],
+      },
+      {
+        text: "工具",
+        items: [
+          { text: "Git", link: "../articles/Tool/java" },
+          { text: "Maven", link: "../articles/Tool/java" },
+        ],
+      },
+      {
+        text: "Linux",
+        items: [
+          { text: "基本命令", link: "../articles/Linux/java" },
+          { text: "运维", link: "../articles/Linux/java" },
+        ],
+      },
+      {
+        text: "读书笔记",
+        items: [
+          { text: "计算机网络", link: "../articles/NoteBook/java" },
+          { text: "操作系统", link: "../articles/NoteBook/java" },
+          { text: "数据结构", link: "../articles/NoteBook/java" },
+          { text: "算法", link: "../articles/NoteBook/java" },
         ],
       },
       {
@@ -51,24 +73,79 @@ export default {
         ]
       },
     ],
-    sidebar: [
-      {
-        text: ' 开始',
-        items: [
-          { text: '起步', link: '/pages/start/' },
-        ]
-      },
+    sidebar: {
+      "/Start": [
         {
-          text: "vue教程",
-          collapsible: true,
-          collapsed: true,
+          text: "开始",
           items: [
-            {
-              text: "pina和vuex",
-              link: "/articles/pina和vuex",
-            },
+            { text: "起步", link: "/articles/Start" },
           ],
         },
       ],
+      "/Java/Java基础": [
+        {
+          text: "java",
+          items: [
+            { text: "起步", link: "/articles/Java/Java基础/java" },
+          ],
+        },
+      ],
+      "/Java": [
+        {
+          text: "java",
+          items: [
+            { text: "起步", link: "/articles/Java" },
+          ],
+        },
+      ],
+      "/Database": [
+        {
+          text: "java",
+          items: [
+            { text: "起步", link: "/articles/Database/java" },
+          ],
+        },
+      ],
+      "/Linux": [
+        {
+          text: "java",
+          items: [
+            { text: "起步", link: "/articles/Linux/java" },
+          ],
+        },
+      ],
+      "/NoteBook": [
+        {
+          text: "开始",
+          items: [
+            { text: "起步", link: "/articles/NoteBook/java" },
+          ],
+        },
+      ],
+      "/Spring": [
+        {
+          text: "开始",
+          items: [
+            { text: "起步", link: "/articles/Spring/java" },
+          ],
+        },
+      ],
+      "/Tool": [
+        {
+          text: "开始",
+          items: [
+            { text: "起步", link: "/articles/Tool/java" },
+          ],
+        },
+      ],
+      "/About": [
+        {
+          text: "开始",
+          items: [
+            { text: "起步", link: "/articles/About/about" },
+          ],
+        },
+      ],
+    },
   },
 };
