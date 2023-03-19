@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /About/AboutDuck
+      link: /Start
     - theme: alt
       text: ChatGPT
       link: /FrontEnd/FrontEnd/Tutorial
