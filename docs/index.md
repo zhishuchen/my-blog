@@ -3,21 +3,21 @@
 layout: home
 
 hero:
-  name:  李载赣神魔
+  name:  植树chen
   text:  
-  tagline: 欢迎来到我的博客，我是李载赣神魔                  本博客分门别类了 我的笔记，学习路径，教程推荐。
+  tagline: 欢迎来到我的博客，我是植树chen <br> 本博客分门别类了 我的笔记，学习路径，教程推荐。
   actions:
     - theme: brand
-      text: chatGpt
+      text: 开始
       link: /About/AboutDuck
     - theme: alt
-      text: 笔记
+      text: ChatGPT
       link: /FrontEnd/FrontEnd/Tutorial
     - theme: alt
-      text: 项目
+      text: 笔记
       link: /Project/index
     - theme: alt
-      text: 介绍
+      text: 项目
       link: Explore/2022/
 
 features:

@@ -1,7 +1,7 @@
 export default {
-  title: "李载赣神魔", //标题
-  titleTemplate: "李载赣神魔的博客", //标题模板
-  description: "lzgsm1997-BLOG", //描述
+  title: "植树chen", //标题
+  titleTemplate: "植树chen的博客", //标题模板
+  description: "zhishuchen-BLOG", //描述
   base: '/my-blog/',
   lastUpdated: true, //开启上次更新时间
   lastUpdatedText: '最近更新时间',
@@ -9,12 +9,12 @@ export default {
     theme: "nord",
   },
   head: [
-    ["link", { rel: "icon", href: "/code.png" }],
-    ["meta", { property: "og:title", content: "李载赣神魔" }],
-    ["meta", { property: "og:site_name", content: "李载赣神魔" }],
+    ["link", { rel: "icon", href: "/tree.ico" }],
+    ["meta", { property: "og:title", content: "植树chen" }],
+    ["meta", { property: "og:site_name", content: "植树chen" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:description", content: "李载赣神魔" }],
-    ["meta", { property: "og:url", content: "https://lzgsm1997.github.io/" }],
+    ["meta", { property: "og:description", content: "植树chen" }],
+    ["meta", { property: "og:url", content: "https://zhishuchen.github.io/" }],
     [
       "script",
       {
@@ -59,8 +59,8 @@ export default {
   ],
   // Theme related configurations.[自定义主题]
   themeConfig: {
-    logo: "/logo.svg",
-    siteTitle: "『 李载赣神魔的博客 』",
+    logo: "/code.png",
+    siteTitle: "植树chen的博客",
     //outlineTitle: '🔴🟠🟡🟢🔵🟣🟤⚫⚪',
     outline:[2,6],
     //导航栏
@@ -303,11 +303,11 @@ export default {
     },
     //社交链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/lzgsm1997" },
+      { icon: "github", link: "https://github.com/zhishuchen" },
     ],
     //页脚
     footer: {
-      copyright: "Copyright © 2023-present 李载赣神魔",
+      copyright: "Copyright © 2023-present 植树chen",
     },
     //碳广告
     // carbonAds: {
