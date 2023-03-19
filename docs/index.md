@@ -1,32 +1,45 @@
 ---
-layout: home
-title: 植树chen
-titleTemplate: 我的博客
 
-hero: 
-  name: Hi there 👋
-  text: ' '
-  tagline: 种一颗树最好的时间是十年前，其次是现在。
-  image:
-    src: /image/avatar.jpg
-    alt: 谛听
+layout: home
+
+hero:
+  name:  李载赣神魔
+  text:  
+  tagline: 欢迎来到我的博客，我是李载赣神魔                  本博客分门别类了 我的笔记，学习路径，教程推荐。
   actions:
     - theme: brand
-      text: 开始
-      link: /articles/start/
+      text: chatGpt
+      link: /About/AboutDuck
     - theme: alt
-      text: chatGPT
-      link:	https://www.bing.com/?intlF=&mkt=zh-CN
+      text: 笔记
+      link: /FrontEnd/FrontEnd/Tutorial
+    - theme: alt
+      text: 项目
+      link: /Project/index
+    - theme: alt
+      text: 介绍
+      link: Explore/2022/
 
 features:
-  - icon: ⚡️
-    title: 这是一个闪电图标
-    details: wawawa
-  - icon: 🖖
-    title: 这是一个手掌图标
-    details: good...
-  - icon: 🛠️
-    title: 这是一个修理图标
-    details: cocococo
+- icon: 📖
+  title: 笔记还在整理中....
+  details: 往后还要持续翻新笔记，让它更像教程
+- icon: 💻
+  title: 前端 - FrontEnd
+  details: HTML CSS Js Ts Vue
+- icon: 🖥️
+  title: 后端 - BackEnd
+  details: Node + Express + MySQL
+- icon: 🧊
+  title: 部署 - Deploy
+  details: Nginx GH-Pages
+- icon: 📦
+  title: 数据库 - DataBase
+  details: MySQL SQLite indexedDB
+- icon: 🕸️
+  title: 爬虫 - Seventeen-A 
+  details: Python + SQLite
 
 ---
+
+<br/>

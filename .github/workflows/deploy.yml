@@ -1,26 +1,26 @@
 name: Deploy
+on: [push]
 
-on:
-  push:
-    branches:
-      - main
-
+# 任务
 jobs:
-  deploy:
+  build-and-deploy:
+    # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          node-version: 16
-          cache: yarn
-      - run: yarn install --frozen-lockfile
+          persist-credentials: false
 
+      # 生成静态文件
       - name: Build
-        run: yarn docs:build
+        run: npm install && npm run build
 
+      # 部署到 GitHub Pages
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/.vitepress/dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: GithubPages
+          FOLDER: docs/.vitepress/dist
