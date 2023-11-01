@@ -1,7 +1,7 @@
 
 
 <p align="center" style="margin:50px">
-  <a href="xxggg.github.io/">
+  <a href="zhishuchen.github.io/">
     <img src="img/logo.svg" alt="Storybook" width="150" />
   </a>
 </p>
@@ -17,7 +17,7 @@ My blog.
 </p>
 
 <p align="center">
-<a href="xxggg.github.io/"><b>🐤进入我的博客： 小黄鸭 🐤</b></a> 
+<a href="zhishuchen.github.io/"><b>🐤进入我的博客： 小黄鸭 🐤</b></a> 
 </p>
 
 
